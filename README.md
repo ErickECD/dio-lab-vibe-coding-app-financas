@@ -1,6 +1,6 @@
 # 💸 App de Organização de Finanças Pessoais para pessoas com TDAH utilizando Vibe Coding - FinançaMente
 
-📄 Introdução ao PRD
+📄 Introdução ao PRD:
 
 O PRD abaixo foi desenvolvido para guiar a criação do **FinançaMente**, um aplicativo de organização de finanças pessoais voltado para pessoas com TDAH.  
 Ele descreve o contexto, problema, objetivos, público-alvo, funcionalidades e critérios de sucesso, além de incorporar princípios de **design universal** e **melhores práticas psicológicas** para apoiar usuários com TDAH.  
@@ -79,13 +79,14 @@ Todas as funcionalidades fazem parte do MVP, mas estão organizadas em dois bloc
 - Reforço dos princípios de design universal e melhores práticas psicológicas para TDAH.  
 ```
 🧩 Explorando o Lovable na Prática:
+
 Com o PRD pronto e revisado, utilizei o Lovable para gerar o plano inicial do MVP. Os principais resultados foram:
 
 - Fluxo de Telas: chat para registro de gastos, tela de relatórios simples e interface para metas financeiras.
 - Agente Financeiro: definido com tom acolhedor e educativo, oferecendo dicas curtas e práticas.
 - Validação Inicial: proposta de testes com grupo piloto de pessoas com TDAH, com métricas de adesão e satisfação.
 
-🚀 Entrega do Desafio
+🚀 Entrega do Desafio:
 
 Este repositório contém:
 - Meu PRD final (acima).
@@ -103,20 +104,22 @@ Interações com o Lovable:
 > Validar e testar funcionalidades de ponta a ponta e realizar melhorias necessárias.
 
 📌 Resumo do App – FinançaMente:
+
 - Registro de gastos via conversa: o usuário informa seus gastos em linguagem natural, sem precisar preencher formulários ou planilhas.
 - Classificação automática: cada gasto é categorizado de forma inteligente (ex.: supermercado, transporte, lazer).
 - Relatórios visuais e acessíveis: o app gera gráficos e resumos simples, pensados para reduzir sobrecarga cognitiva e facilitar a compreensão.
 - Agente Financeiro: funciona como um consultor amigável, oferecendo dicas curtas e práticas de economia adaptadas ao perfil do usuário.
 - Metas financeiras: permite definir objetivos simples (como economizar um valor específico no mês) e acompanhar o progresso com feedback imediato.
 
-🎯 Características principais
+🎯 Características principais:
+
 - Design universal: interface limpa e inclusiva, com foco em acessibilidade.
 - Tom acolhedor: o agente conversa de forma motivadora e clara, sem jargões técnicos.
 - Fluxo intuitivo: o usuário passa naturalmente do registro de gastos para relatórios e metas.
 - Feedback rápido: cada ação gera uma resposta imediata, reforçando hábitos positivos.
 - Gamificação leve: recompensas e mensagens de incentivo ajudam a manter o engajamento.
 
-Resultado final (preview): https://id-preview--3ffdc69d-7696-411d-96f8-cd3bf28bc5cd.lovable.app/ 
+🪄 Resultado final (preview): https://id-preview--3ffdc69d-7696-411d-96f8-cd3bf28bc5cd.lovable.app/ 
 
 <img width="1917" height="906" alt="image" src="https://github.com/user-attachments/assets/a37c6c49-b1b2-4795-9d5d-db66f91d8750" />
 
