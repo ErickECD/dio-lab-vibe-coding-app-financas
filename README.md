@@ -1,89 +1,130 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Organização de Finanças Pessoais para pessoas com TDAH utilizando Vibe Coding - FinançaMente
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+📄 Introdução ao PRD
 
-## ✨ O que é Vibe Coding
-
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
-
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
-
-## 🎯 Desafio
-
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
-
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
-
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
-
-## 🪄 Etapas do Desafio
-
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
-
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
-
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+O PRD abaixo foi desenvolvido para guiar a criação do **FinançaMente**, um aplicativo de organização de finanças pessoais voltado para pessoas com TDAH.  
+Ele descreve o contexto, problema, objetivos, público-alvo, funcionalidades e critérios de sucesso, além de incorporar princípios de **design universal** e **melhores práticas psicológicas** para apoiar usuários com TDAH.  
+Este documento serviu como base para interações no **Lovable**, onde foi possível gerar o plano de MVP, fluxo de telas e comportamento do agente financeiro.
 
 ```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+# PRD Final – Aplicativo de Organização de Finanças para Pessoas com TDAH
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+## Contexto
+O objetivo é criar um aplicativo de Organização de Finanças Pessoais voltado para pessoas diagnosticadas com TDAH.  
+O diferencial está em oferecer uma experiência baseada em conversas em linguagem natural, reduzindo a necessidade de formulários ou planilhas complexas.  
+O app deve considerar os desafios específicos que pessoas com TDAH enfrentam na vida adulta e financeira, tornando o processo mais simples, motivador e intuitivo.  
+Além disso, o produto deve ser desenvolvido com design universal e fundamentado em melhores práticas de psicologia aplicada ao TDAH, garantindo acessibilidade e boa experiência para o máximo de usuários possíveis.  
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+## Problema
+Os aplicativos de finanças existentes exigem muita entrada manual e oferecem pouca personalização.  
+Isso gera frustração e abandono do uso, especialmente em pessoas com TDAH, que podem ter dificuldade em manter rotinas repetitivas.  
+A solução proposta é um app que funcione como um assistente conversacional, oferecendo recomendações automáticas e suporte adaptado.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+## Objetivos do Produto
+- Aumentar a adesão ao controle financeiro entre pessoas com TDAH.  
+- Reduzir a frustração com apps tradicionais de finanças.  
+- Validar a experiência conversacional como alternativa às interfaces tradicionais.  
+- Garantir acessibilidade e inclusão por meio de design universal.  
+- Incorporar estratégias psicológicas eficazes para TDAH, como:  
+  - Feedback imediato e positivo para reforçar hábitos.  
+  - Interfaces visuais simples, com cores suaves e sem excesso de estímulos.  
+  - Divisão de tarefas complexas em passos curtos e guiados.  
+  - Recompensas e gamificação para manter engajamento.  
+  - Uso de lembretes amigáveis e não intrusivos.  
+  - Flexibilidade para personalizar relatórios e metas conforme o estilo cognitivo do usuário.  
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+## Público-Alvo
+- Pessoas com TDAH que desejam iniciar o controle financeiro de forma prática.  
+- Usuários iniciantes em organização financeira que buscam simplicidade e acessibilidade.  
+- Faixa etária principal: jovens adultos e adultos em início de vida financeira independente.  
+- Usuários diversos que se beneficiam de uma interface inclusiva e acessível.  
+
+## Funcionalidades-Chave
+Todas as funcionalidades fazem parte do MVP, mas estão organizadas em dois blocos para facilitar o planejamento:
+
+- Essenciais (primeiro release do MVP):  
+  1. Registro de gastos via chat em linguagem natural.  
+  2. Classificação automática das transações.  
+  3. Relatórios visuais e acessíveis, adaptados ao perfil do usuário.  
+
+- Evolutivas (expansão do MVP):  
+  4. Definição e acompanhamento de metas financeiras com feedback simples.  
+  5. Agente Financeiro que fornece dicas de economia personalizadas.  
+
+## Fluxo do Usuário (Narrativa)
+1. Usuário abre o app.  
+2. Conversa com o agente para registrar um gasto (“gastei R$ 50 em supermercado”).  
+3. O app classifica automaticamente a transação.  
+4. O agente oferece uma dica simples de economia.  
+5. Usuário acessa relatório visual com resumo dos gastos.  
+
+## Critérios de Sucesso
+- Pelo menos 70% dos usuários piloto registram gastos diariamente por 1 semana.  
+- Nível de satisfação ≥ 80% em pesquisa rápida sobre clareza e simplicidade da conversa.  
+- Taxa de uso contínuo ≥ 50% após 30 dias.  
+- Feedback positivo sobre acessibilidade, inclusão e adequação psicológica ao TDAH.  
+
+## Validação
+- Testes com grupo piloto de pessoas com TDAH.  
+- Coleta de feedback qualitativo sobre clareza, motivação e simplicidade da experiência.  
+- Avaliação da acessibilidade com usuários diversos.  
+- Ajustes iterativos com base nos resultados.  
+
+## Entregável da IA
+- Plano de MVP contendo:  
+  - Principais telas (chat, relatórios).  
+  - Recursos essenciais (processamento de linguagem natural, categorização automática).  
+  - Esboço de validação inicial com grupo piloto.  
+- Linguagem acessível e tom educativo em português.  
+- Reforço dos princípios de design universal e melhores práticas psicológicas para TDAH.  
 ```
+🧩 Explorando o Lovable na Prática:
+Com o PRD pronto e revisado, utilizei o Lovable para gerar o plano inicial do MVP. Os principais resultados foram:
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+- Fluxo de Telas: chat para registro de gastos, tela de relatórios simples e interface para metas financeiras.
+- Agente Financeiro: definido com tom acolhedor e educativo, oferecendo dicas curtas e práticas.
+- Validação Inicial: proposta de testes com grupo piloto de pessoas com TDAH, com métricas de adesão e satisfação.
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+🚀 Entrega do Desafio
 
-### 2. Explorando o Lovable na Prática
+Este repositório contém:
+- Meu PRD final (acima).
+- Prints e registros das interações com a IA no Lovable (abaixo).
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+Interações com o Lovable:
+> O app ficou ótimo para uma versão mobile, mas parece que não tem versão web. Seria possível adaptar o layout para ambos os estilos de visualização? Também pode criar uma logo genérica para o app que sintetize o aspecto de finanças pessoais e pessoas com TDAH.
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+> Adicione a opção de criação de metas personalizadas. Adicione uma área para perfil onde o usuário coloca suas características e dados. Área de integração com os maiores bancos do Brasil. Área de emissão de relatórios personalizados por data, categoria e etc. Adicionar dark mode. Adicionar tela de login com logo utilizando as melhores práticas de segurança e desgin.
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+> Adicione gamificação com sistema de conquistas e recompensas para manter o engajamento do usuário com TDAH. Adicione a categoria LAZER em gastos por categoria. Adicionar categoria OUTROS em CATEGORIAS para alocar despesas que não puderem ser alocadas nas categorias padrão que são alimentação, moradia, transporte, educação, saúde e lazer. Quando o agente não entender ao que se refere o gasto, faça com que ele sugira uma categoria e o usuário faça a escolha. No menu "ultimas transações" a IA deve categorizar e denominar o gasto de forma simples. EX: "se o input foi "hoje gaste 20 reais com cigarro" no menu ultimas transações deverá aparecer algo como: "Cigarro - Valor R$XXXX - Categoria"
 
-### 3. Entregando o Desafio na DIO
+> Adicione notificações motivacionais e lembretes amigáveis para incentivar o registro diário de gastos, especialmente para usuários com TDAH
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+> Validar e testar funcionalidades de ponta a ponta e realizar melhorias necessárias.
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+📌 Resumo do App – FinançaMente:
+- Registro de gastos via conversa: o usuário informa seus gastos em linguagem natural, sem precisar preencher formulários ou planilhas.
+- Classificação automática: cada gasto é categorizado de forma inteligente (ex.: supermercado, transporte, lazer).
+- Relatórios visuais e acessíveis: o app gera gráficos e resumos simples, pensados para reduzir sobrecarga cognitiva e facilitar a compreensão.
+- Agente Financeiro: funciona como um consultor amigável, oferecendo dicas curtas e práticas de economia adaptadas ao perfil do usuário.
+- Metas financeiras: permite definir objetivos simples (como economizar um valor específico no mês) e acompanhar o progresso com feedback imediato.
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+🎯 Características principais
+- Design universal: interface limpa e inclusiva, com foco em acessibilidade.
+- Tom acolhedor: o agente conversa de forma motivadora e clara, sem jargões técnicos.
+- Fluxo intuitivo: o usuário passa naturalmente do registro de gastos para relatórios e metas.
+- Feedback rápido: cada ação gera uma resposta imediata, reforçando hábitos positivos.
+- Gamificação leve: recompensas e mensagens de incentivo ajudam a manter o engajamento.
 
-## 💬 Conclusão
+Resultado final (preview): https://id-preview--3ffdc69d-7696-411d-96f8-cd3bf28bc5cd.lovable.app/ 
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+<img width="1917" height="906" alt="image" src="https://github.com/user-attachments/assets/a37c6c49-b1b2-4795-9d5d-db66f91d8750" />
+
+🤔 Reflexão sobre o processo:
+
+- Funcionou bem: a clareza do PRD ajudou a IA a gerar respostas consistentes.
+- Não funcionou como esperado: algumas respostas do Lovable foram genéricas exigindo prompts mais específicos e por falta de crédito não foi possível realizar ajustes mais finos.
+- Aprendizado: percebi que conversar com IA exige intenção clara e detalhamento, e que o PRD é a chave para guiar a criação.
+
+✅ Conclusão
+O FinançaMente cumpre o papel descrito no PRD: simplificar o controle financeiro para pessoas com TDAH por meio de uma experiência conversacional, acessível e motivadora. Ele reduz a frustração dos apps tradicionais e oferece uma jornada prática, com foco em clareza, personalização e apoio psicológico.
