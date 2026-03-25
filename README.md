@@ -126,5 +126,6 @@ Resultado final (preview): https://id-preview--3ffdc69d-7696-411d-96f8-cd3bf28bc
 - Não funcionou como esperado: algumas respostas do Lovable foram genéricas exigindo prompts mais específicos e por falta de crédito não foi possível realizar ajustes mais finos.
 - Aprendizado: percebi que conversar com IA exige intenção clara e detalhamento, e que o PRD é a chave para guiar a criação.
 
-✅ Conclusão
+✅ Conclusão:
+
 O FinançaMente cumpre o papel descrito no PRD: simplificar o controle financeiro para pessoas com TDAH por meio de uma experiência conversacional, acessível e motivadora. Ele reduz a frustração dos apps tradicionais e oferece uma jornada prática, com foco em clareza, personalização e apoio psicológico.
