@@ -2,7 +2,8 @@
 
 📄 Introdução ao PRD:
 
-O PRD abaixo foi desenvolvido para guiar a criação do **FinançaMente**, um aplicativo de organização de finanças pessoais voltado para pessoas com TDAH.  
+O PRD abaixo foi desenvolvido para guiar a criação do **FinançaMente**, um aplicativo de organização de finanças pessoais voltado para pessoas com TDAH.
+
 Ele descreve o contexto, problema, objetivos, público-alvo, funcionalidades e critérios de sucesso, além de incorporar princípios de **design universal** e **melhores práticas psicológicas** para apoiar usuários com TDAH.  
 Este documento serviu como base para interações no **Lovable**, onde foi possível gerar o plano de MVP, fluxo de telas e comportamento do agente financeiro.
 
@@ -121,7 +122,9 @@ Interações com o Lovable:
 
 🪄 Resultado final (preview): https://id-preview--3ffdc69d-7696-411d-96f8-cd3bf28bc5cd.lovable.app/ 
 
+
 <img width="1917" height="906" alt="image" src="https://github.com/user-attachments/assets/a37c6c49-b1b2-4795-9d5d-db66f91d8750" />
+
 
 🤔 Reflexão sobre o processo:
 
